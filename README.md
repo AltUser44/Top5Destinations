@@ -26,9 +26,9 @@ Simple desktop integration via Desktop.getDesktop().browse(...).
 **Requirements**
 Java Development Kit (JDK) — Java 8 or newer is sufficient. (Recommended: JDK 11+)
 A system with GUI support for Swing. (Headless environments will not display the UI.)
-On Windows PowerShell use the commands below as-is; note paths with spaces are quoted.
+On Windows PowerShell, use the commands below as-is; note paths with spaces are quoted.
 Run from source (fastest, command-line)
-From the repository root run these PowerShell-friendly commands. These steps compile the .java into an out folder and copy the resources/ folder into out so getResource("/resources/...") works.
+From the repository roo,t run these PowerShell-friendly commands. These steps compile the .java into an out folder and copy the resources/ folder into out so that getResource("/resources/...") works.
 
 
 **Create a runnable JAR**
@@ -44,9 +44,10 @@ Mark the resources folder so it is copied to the classpath (or copy resources ma
 Run the TopFiveDestinationList main class.
 
 
-^^Author / Credits**
+**Author / Credits**
 Created by: JaeYY Nkese.
 
 **License**
+
 No license file included. If you want to publish this publicly, consider adding a license such as MIT or Apache 2.0 (add a LICENSE file).
 
