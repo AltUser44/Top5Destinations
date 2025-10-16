@@ -9,11 +9,13 @@ Each list row shows a ranked destination with an image, a one-line description, 
 
 
 **Quick overview (what this repo contains)**
+
 Main source: Basic List View Control/src/TopFiveDestinationList.java — the full application (single-file, default package).
 Resources: Basic List View Control/resources/ — image files used by the renderer (e.g., paris.jpg, TestImage.jpg, etc.).
 A built JAR may be present as TopFiveDestinationList_JaeYYNkese.jar (not required to run from source).
 
 **Features (what the app does)**
+
 Displays an ordered top-5 list (1 → 5) with:
 Image (left)
 Title (rank + name)
@@ -24,6 +26,7 @@ Graceful fallback if an image is missing (uses TestImage.jpg).
 Simple desktop integration via Desktop.getDesktop().browse(...).
 
 **Requirements**
+
 Java Development Kit (JDK) — Java 8 or newer is sufficient. (Recommended: JDK 11+)
 A system with GUI support for Swing. (Headless environments will not display the UI.)
 On Windows PowerShell, use the commands below as-is; note paths with spaces are quoted.
@@ -32,12 +35,14 @@ From the repository roo,t run these PowerShell-friendly commands. These steps co
 
 
 **Create a runnable JAR**
+
 To build a self-contained JAR (includes classes plus resources), do:
 javac -d out "Basic List View Control/src/TopFiveDestinationList.java"
 Copy-Item -Recurse -Path "Basic List View Control/resources" -Destination out
 
 
 **Run in an IDE**
+
 Import the folder Basic List View Control as a Java project (Eclipse/IntelliJ/NetBeans).
 Add src as the source root.
 Mark the resources folder so it is copied to the classpath (or copy resources manually into your classes output folder).
@@ -45,6 +50,7 @@ Run the TopFiveDestinationList main class.
 
 
 **Author / Credits**
+
 Created by: JaeYY Nkese.
 
 **License**
