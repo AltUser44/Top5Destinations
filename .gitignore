@@ -1,0 +1,20 @@
+Set-Content -Path .gitignore -Value (@'
+# IDE / workspace
+.metadata/
+.vscode/
+.idea/
+
+# Java build artifacts
+/bin/
+/build/
+/out/
+*.class
+*.jar
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+'@) -Encoding UTF8
